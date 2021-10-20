@@ -1,3 +1,10 @@
+:root {
+    --clr-primary: #10657b;
+    --clr-secondary-light: #189abb;
+    --clr-secondary-dark: #08333d;
+    --clr-gray-300: #707070;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,30 +13,30 @@
 
 body,
 html {
-    font-family: Roboto;
-    font-size: 1.4rem;
+    font-family: Arial;
+    font-size: 1rem;
 }
 
 header {
     text-align: center;
     text-transform: uppercase;
-    background-color: #10657b;
+    background-color: var(--clr-primary);
     color: white;
+    padding: 2rem;
 }
 
 header h1 {
-    padding: 2rem;
-    font-size: 1.4rem;
+    font-size: 2rem;
     font-weight: 400;
 }
 
 .container {
     width: 85%;
-    margin: 4rem auto;
+    margin: auto;
 }
 
 form {
-    margin: auto;
+    margin-top: 4rem;
 }
 
 .input-row {
@@ -55,11 +62,11 @@ form {
     width: 100%;
     height: 3rem;
     border-radius: 0.5rem;
-    border: 1px solid #707070;
+    border: 1px solid var(--clr-gray-300);
     padding: 1rem;
 }
 
-.input-item #form_accept {
+.input-item input[type="checkbox"] {
     width: 1.5rem;
     height: 1.5rem;
     margin-right: 0.5rem;
@@ -69,13 +76,14 @@ form {
 .input-item .label_inline {
     display: inline;
     vertical-align: top;
+    line-height: 1.5rem;
 }
 
 .input-item button {
     margin-left: auto;
     display: block;
-    padding: .7rem 2rem;
-    background-color: #10657b;
+    padding: 0.7rem 2rem;
+    background-color: var(--clr-primary);
     color: white;
     border: none;
     border-radius: 0.5rem;
@@ -83,16 +91,16 @@ form {
 }
 
 .input-item button:hover {
-    background-color: #08333d;
+    background-color: var(--clr-secondary-dark);
     color: white;
 }
 
 .input-item button:active {
-    background-color: #189abb;
+    background-color: var(--clr-secondary-light);
     color: white;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
     .input-row {
         flex-direction: column;
         margin: 0;
