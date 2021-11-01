@@ -1,3 +1,6 @@
+/* ================================ RESET ================================ */
+
+
 /* Ändra box-sizing standard */
 
 *,
@@ -95,3 +98,26 @@ select {
         scroll-behavior: auto !important;
     }
 }
+
+
+/* ================================ Variabler ================================ */
+
+:root {
+    /* Färger */
+    --clr-text-footer: #F3FBFF;
+    --clr-outline: #d2d2d2;
+    --clr-background: #f7f7f7;
+    --clr-background-dark: #163c7c;
+    --clr-placeholder-1: #dedede;
+    --clr-placeholder-2: #bfbfbf;
+    --clr-text: #626262;
+    --clr-title: #363636;
+    --clr-green: #25e6c8;
+    --clr-blue: #2baaec;
+    /* Typsnitt */
+    --fnt-titles: Roboto Slab;
+    --fnt-body: Roboto;
+}
+
+
+/* ================================ Main CSS ================================ */
