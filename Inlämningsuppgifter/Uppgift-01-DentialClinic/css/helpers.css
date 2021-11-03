@@ -18,6 +18,14 @@
 }
 
 
+/* Title undeline */
+
+.underline {
+    border-bottom: 0.1875rem solid var(--clr-green);
+    /* 3px */
+}
+
+
 /* Margin all */
 
 .m-1 {

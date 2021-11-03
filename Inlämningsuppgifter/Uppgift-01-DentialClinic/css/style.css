@@ -136,7 +136,6 @@ h4 {
 .showcase-wrap {
     background-color: var(--clr-placeholder-1);
     height: 43.75rem;
-    margin-bottom: 5rem;
     /* 700px */
 }
 
@@ -188,13 +187,9 @@ h4 {
     z-index: 1;
 }
 
-.about__content>h2 {
-    border-bottom: 3px solid var(--clr-green);
-}
-
 .about img {
     position: absolute;
-    top: 1.25rem;
+    top: 5.375rem;
     /* 20px */
     right: 0;
     z-index: 0;
@@ -204,4 +199,46 @@ h4 {
     display: flex;
     width: 80%;
     justify-content: space-between;
+}
+
+
+/* Services */
+
+.services-wrap {
+    background-color: var(--clr-background);
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services__title {
+    display: flex;
+    justify-content: center;
+    width: 450px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.card {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+    border-radius: 0.625rem;
+    /* 10px */
+    text-align: center;
+}
+
+.card__icon {
+    background-color: var(--clr-green);
+    padding: 1rem;
+    border-radius: 50%;
 }
