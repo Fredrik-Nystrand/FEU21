@@ -1,8 +1,38 @@
 /* Container */
 
 .container {
-    max-width: 88.125rem;
+    max-width: 100%;
     /* 1410px */
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+
+/* Hide content on mobile/tablet */
+
+.hide {
+    display: none;
+}
+
+
+/* Display content att full width on mobile/tablet */
+
+.full-w {
+    flex: 1 !important;
+}
+
+
+/* Center content on mobile/tablet*/
+
+*>.center-t {
+    text-align: center;
+}
+
+.center-f {
+    justify-content: center;
+}
+
+.center-m {
     margin: 0 auto;
 }
 

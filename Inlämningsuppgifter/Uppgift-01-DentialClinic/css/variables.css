@@ -14,6 +14,8 @@
     --clr-title: #363636;
     --clr-green: #25e6c8;
     --clr-blue: #2baaec;
+    --clr-blue-200: rgba(43, 168, 236, 0.200);
+    --clr-blue-800: rgba(43, 168, 236, 0.800);
     /* Typsnitt */
     --fnt-titles: 'Roboto Slab', serif;
     --fnt-body: 'Roboto', sans-serif;

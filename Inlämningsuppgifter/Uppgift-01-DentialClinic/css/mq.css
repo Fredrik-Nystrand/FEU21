@@ -1,0 +1,50 @@
+/* Media Queries */
+
+
+/* Minimum skärm 768px */
+
+@media screen and (min-width: 48rem) {
+    .container {
+        max-width: calc(100% - 2rem);
+    }
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+
+
+/* Minimum skärm 1024 */
+
+@media screen and (min-width: 64rem) {
+    .container {
+        max-width: calc(100% - 2rem);
+    }
+    .hide {
+        display: block;
+    }
+    .full-w {
+        flex: 0.5 !important;
+    }
+    .center-t {
+        text-align: left;
+    }
+    .center-f {
+        justify-content: flex-start;
+    }
+    .center-m {
+        margin: 0;
+    }
+    .card-grid {
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+}
+
+
+/* Minimum skärm 1440px */
+
+@media screen and (min-width: 90rem) {
+    .container {
+        max-width: 88rem;
+        /* 1408px */
+    }
+}
